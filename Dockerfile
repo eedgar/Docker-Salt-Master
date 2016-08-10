@@ -3,7 +3,7 @@
 #
 
 FROM ubuntu:14.04
-MAINTAINER SOON_ <dorks@thisissoon.com>
+MAINTAINER rocket <rocketman110@gmail.com>
 
 # Update System
 RUN apt-get update && apt-get upgrade -y -o DPkg::Options::=--force-confold
@@ -16,7 +16,7 @@ RUN apt-get update
 
 # Install Salt
 
-RUN apt-get install -y salt-master=2014.1.11+ds-2trusty1
+RUN apt-get install -y salt-master
 
 # Volumes
 
